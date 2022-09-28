@@ -62,7 +62,7 @@ console.log(cadena.length);
 console.log(cadena.toUpperCase())
 console.log(cadena.toLowerCase()) */
 
-/*
+
 //Función constructora
 function Personaje(nombre,apellido,edad){
     this.nombre = nombre;
@@ -73,21 +73,43 @@ function Personaje(nombre,apellido,edad){
 
 //Instanciamos (creamos) objetos usando la función constructora
 const personaje3 = new Personaje('Bart', 'Simpson', 10)
-console.log(personaje3);
+//console.log(personaje3.hablar());
 
-//Si le pasamos parámetros de más, JS los ignora
+
+/* //Si le pasamos parámetros de más, JS los ignora
 const personaje4 = new Personaje('Simpson', 'Lisa', 8, 'parámetro extra')
-console.log(personaje4);
+console.log(personaje4); */
 
-//Si le pasamos parámetros de menos, los que falta los pone undefined
+/* //Si le pasamos parámetros de menos, los que falta los pone undefined
 const personaje5 = new Personaje('Maggie');
-console.log(personaje5);
+console.log(personaje5); */
 
- //los hacemos hacer su método. Cada personaje "habla" de acuerdo a sus características
+/* //los hacemos hacer su método. Cada personaje "habla" de acuerdo a sus características
 personaje3.hablar()
 personaje5.hablar() */
 
-/* //Ejemplo con objetos de tipo Auto
+
+/* //operador in
+//Si el atributo existe, devuelve true
+console.log('nombre' in personaje3); */
+
+/* //Si el atributo no existe, devuelve false
+console.log('colorDePelo' in personaje3);  */
+
+
+//Bucle for...in para recorrer objetos
+for (const propiedad in personaje3) {
+    console.log(propiedad+' : '+personaje3[propiedad]);
+    
+}
+
+
+
+
+
+
+/* 
+//Ejemplo con objetos de tipo Auto
 function Auto(marca, modelo, anio, puertas, combustible) {
     this.marca = marca;
     this.modelo = modelo;
@@ -114,39 +136,19 @@ const auto3 = new Auto('Ford', 'ranger', 2000)
 
 auto1.hablar()
 auto2.hablar() 
-auto3.hablar()*/
+auto3.hablar()
 
-
-
-/**---------------------------------------------------------------- */
-class Producto {
-
-    constructor(nombre, precio, categoria) {
-        this.nombre = nombre.toUpperCase();
-        this.precio = parseFloat(precio);
-        this.categoria = categoria;
-        this.vendido = false;
-    }
-
-    sumarIVA() {
-        this.precio = this.precio * 1.21;
-    }
-
-    vender() {
-        this.vendido = true;
-    }
+if (!('patente' in auto3)) {
+    console.log('No existe la propiedad');
+} else {
+    console.log(auto3.patente);
 }
+const auto4 = new Auto('Toyota', 'Etios', 2014, 4)
 
+console.log('puertas' in auto4);
+console.log('patente' in auto4);
 
-/* let productoIngresado = prompt('Ingresa el nombre del producto');
-let precioIngresado = prompt('Ingresa el precio por unidad de venta, sin IVA');
-let categoriaIngresada = prompt('Ingresa la categoría del producto');
-
-const producto1 = new Producto(productoIngresado, precioIngresado, categoriaIngresada);
-
-console.log(producto1);
-producto1.sumarIVA();
-alert('El precio final del producto ' + producto1.nombre + ' es $' + producto1.precio);
-
-producto1.vender();
-console.log(producto1.vendido); */
+for (const propiedad in auto4) {
+    console.log(propiedad+' : '+auto4[propiedad]);
+}
+ */
