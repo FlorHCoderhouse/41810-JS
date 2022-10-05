@@ -192,14 +192,32 @@ console.log(dados);
  */
 
 
-/*
+
 //Clase Date para manejo de fechas
 
-let fechaActual = new Date();
+/* let fechaActual = new Date();
 console.log(fechaActual);
 
-let fechaSimple = new Date(2022, 6, 15);
-console.log(fechaSimple);
+
+let fechaSimple = new Date(2022, 6, 13);
+console.log(fechaSimple); */
+
+
+let ultimoSegundo = new Date(2022, 11, 31, 23, 59, 59);
+console.log(ultimoSegundo);
+
+
+console.log(ultimoSegundo.getFullYear());
+console.log(ultimoSegundo.getMonth());
+console.log(ultimoSegundo.getDay());
+console.log(ultimoSegundo.getDate());
+console.log(ultimoSegundo.getTime());
+
+
+
+/* 
+
+
 
 let ultimoSegundo = new Date(2022, 11, 31, 23, 59, 59);
 console.log(ultimoSegundo);
@@ -212,4 +230,4 @@ console.log(ultimoSegundo.getDate());
 console.log(ultimoSegundo.getTime());
 console.log(ultimoSegundo.toString());
 
-*/
+ */
