@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&family=Tiro+Telugu&display=swap"
+        rel="stylesheet">
+    <title>Simulador de plazo fijo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Simulá tu Plazo Fijo</h1>
+    </header>
+    <main>
+        <section class="cardIngreso visible">
+            <form id="ingresoDatosPF" class="formDatosPF" action="">
+                <div class="fila1">
+                    <label for="monto">¿Cuánto querés invertir?</label>
+                    <input type="text" name="monto" id="monto" title="Solo números. Mínimo $100"
+                        placeholder="Mínimo $100" autofocus>
+
+                    <label for="dias">¿A cuántos días?</label>
+                    <input type="text" name="dias" id="dias" title="Solo números. Mínimo 30 días"
+                        placeholder="Mínimo 30 días">
+                </div>
+
+                <div class="fila2">
+                    <label for="tipo">Elegí el tipo de plazo fijo</label>
+                    <select name="tipoPF" id="tipoPF">
+                        <option value="pesos">Plazo fijo en pesos</option>
+                        <option value="dolares">Plazo fijo en dólares</option>
+                    </select>
+
+                    <label for="cuentas">Se va a debitar de la cuenta</label>
+                    <select name="cuentas" id="cuentas">
+                        
+                    </select>
+                </div>
+
+                <div class="fila3">
+                    <div><input type="checkbox" name="guardarDatos" id="guardarDatos" value="">
+                        <label for="guardarDatos">Almacenar estos datos para futura referencia</label>
+                    </div>
+
+                </div>
+
+                <div class="acciones">
+                    <input type="button" id="btnSiguiente" value="Siguiente">
+                    <input type="button" id="btnCancelar" value="Cancelar">
+                    <input type="button" id="btnUltima" value="Mostrar última simulación">
+                </div>
+            </form>
+        </section>
+        <section class="confirmacion oculta">
+            <div>
+                <h1>Los datos de tu simulación</h1>
+                <ul id="listaDeConfirmacion">
+
+
+
+                    
+                </ul>
+                <input type="button" id="btnVolver" value="Volver">
+            </div>
+        </section>
+        <section class="resultado">
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

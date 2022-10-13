@@ -1,0 +1,56 @@
+body {
+    font-family: "Tiro Telugu", serif;
+    background-color: rgb(91, 130, 203);
+}
+
+h1 {
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 40px;
+}
+
+.cardIngreso,
+.confirmacion {
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 2px -1px 15px 1px rgba(69, 69, 69, 0.1);
+    -webkit-box-shadow: 2px -1px 15px 1px rgba(69, 69, 69, 0.1);
+    -moz-box-shadow: 2px -1px 15px 1px rgba(69, 69, 69, 0.1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(253, 244, 233);
+}
+
+.formDatosPF {
+    width: 80%;
+}
+
+.fila1,
+.fila2,
+.fila3 {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila3 {
+    justify-content: space-evenly;
+}
+
+.acciones {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.visible {
+    display: flex;
+}
+
+.oculta {
+    display: none;
+}
+
