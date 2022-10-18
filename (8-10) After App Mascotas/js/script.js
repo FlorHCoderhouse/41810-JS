@@ -137,9 +137,9 @@ btnLogin.addEventListener('click', (e) => {
     e.preventDefault();
 
     //Validamos que ambos campos estén completos
-    if (!mailLogin.value || !passLogin.value) {
-        alert('Todos los campos son requeridos');
-    } else {
+    // if (!mailLogin.value || !passLogin.value) {
+    //     alert('Todos los campos son requeridos');
+    // } else {
         //Revisamos si el return de la función validate es un objeto o un boolean. Si es un objeto, fue una validación exitosa y usamos los datos. Si no, informamos por alert.
         let data = validarUsuario(usuarios, mailLogin.value, passLogin.value);
 
@@ -161,7 +161,7 @@ btnLogin.addEventListener('click', (e) => {
             mostrarInfoMascota(mascotas);
             presentarInfo(toggles, 'd-none');
         }
-    }
+   // }
 });
 
 btnLogout.addEventListener('click', () => {

@@ -1,0 +1,25 @@
+h1{
+    background-color: yellow;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#alerta{
+padding: 2rem;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.negativo{
+    border:solid 2px rgb(223, 26, 26);
+    background-color: rgb(223, 26, 26,.5);
+
+}
+.positivo{
+    border:solid 2px rgb(30, 167, 30);
+background-color: rgb(30, 167, 30,.5);
+}
