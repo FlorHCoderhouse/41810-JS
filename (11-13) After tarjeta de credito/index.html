@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  
+<div class="container">
+
+    <div class="card-container">
+
+        <div class="frente">
+            <div class="imagen">
+                <img src="./img/chip.png" alt="">
+                <img class="logoTarjeta" src="" alt="">
+            </div>
+            <div class="cajaNumTarjeta">#### #### #### ####</div>
+            <div class="flexbox">
+                <div class="caja">
+                    <span>titular</span>
+                    <div class="cajaNombre">nombre completo</div>
+                </div>
+                <div class="caja">
+                    <span>vencimiento</span>
+                    <div class="vencimiento">
+                        <span class="mesVencimiento">mm</span>
+                        <span class="anioVencimiento">aa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dorso">
+            <div class="banda"></div>
+            <div class="caja">
+                <span>cod seguridad</span>
+                <div class="cajaCodSeguridad"></div>
+                <img class="logoTarjeta" src="" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <form id="formulario">
+        <div class="inputBox">
+            <span>numero de tarjeta</span>
+            <input type="text" class="inputNumTarjeta">
+        </div>
+        <div class="inputBox">
+            <span>titular</span>
+            <input type="text" class="inputNombre">
+        </div>
+        <div class="flexbox">
+            <div class="inputBox">
+                <span>mes de vencimiento</span>
+                <select id="mes" class="inputMes">
+                    <option value="mes" selected disabled>mes</option>    
+                </select>
+            </div>
+            <div class="inputBox">
+                <span>año de vencimiento</span>
+                <select id="anio" class="inputAnio">
+                    <option value="anio" selected disabled>año</option>                
+                </select>
+            </div>
+            <div class="inputBox">
+                <span>Cod Seguridad</span>
+                <input type="text" maxlength="4" class="inputCodSeguridad">
+            </div>
+        </div>
+        <input type="submit" value="enviar" class="submit-btn" id="btnEnviar">
+    </form>
+
+</div>  
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
