@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+.foto {
+    display: none;
+    width: 500px;
+    height: 500px;
+    border: 25px solid white;
+    border-bottom: 70px solid white;
+    background-color: lightgoldenrodyellow;
+    background-image: url('https://assets.iprofesional.com/cdn-cgi/image/w=880,f=webp/https://assets.iprofesional.com/assets/jpg/2022/03/533255.jpg');
+}
+
+.visible {
+    display: block;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
