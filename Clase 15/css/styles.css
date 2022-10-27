@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/marauders-map.jpg");
+    background-size: cover;
+}
+
+header {
+    background: rgb(42, 42, 42);
+    background-image: url("../img/hogwarts.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 250px;
+}
+
+.seleccion {
+    margin-bottom: 30px;
+}
