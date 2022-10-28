@@ -1,0 +1,637 @@
+
+    [{
+        "moneda": "AED",
+        "pais": "AE"
+    },
+    {
+        "moneda": "AFN",
+        "pais": "AF"
+    },
+    {
+        "moneda": "ALL",
+        "pais": "AL"
+    },
+    {
+        "moneda": "XCD",
+        "pais": "AG"
+    },
+    {
+        "moneda": "AMD",
+        "pais": "AM"
+    },
+    {
+        "moneda": "ANG",
+        "pais": "AN"
+    },
+    {
+        "moneda": "AOA",
+        "pais": "AO"
+    },
+    {
+        "moneda": "AQD",
+        "pais": "AQ"
+    },
+    {
+        "moneda": "ARS",
+        "pais": "AR"
+    },
+    {
+        "moneda": "AUD",
+        "pais": "AU"
+    },
+    {
+        "moneda": "AZN",
+        "pais": "AZ"
+    },
+    {
+        "moneda": "BAM",
+        "pais": "BA"
+    },
+    {
+        "moneda": "BBD",
+        "pais": "BB"
+    },
+    {
+        "moneda": "BDT",
+        "pais": "BD"
+    },
+    {
+        "moneda": "XOF",
+        "pais": "BE"
+    },
+    {
+        "moneda": "BGN",
+        "pais": "BG"
+    },
+    {
+        "moneda": "BHD",
+        "pais": "BH"
+    },
+    {
+        "moneda": "BIF",
+        "pais": "BI"
+    },
+    {
+        "moneda": "BMD",
+        "pais": "BM"
+    },
+    {
+        "moneda": "BND",
+        "pais": "BN"
+    },
+    {
+        "moneda": "BOB",
+        "pais": "BO"
+    },
+    {
+        "moneda": "BRL",
+        "pais": "BR"
+    },
+    {
+        "moneda": "BSD",
+        "pais": "BS"
+    },
+    {
+        "moneda": "NOK",
+        "pais": "BV"
+    },
+    {
+        "moneda": "BWP",
+        "pais": "BW"
+    },
+    {
+        "moneda": "BYR",
+        "pais": "BY"
+    },
+    {
+        "moneda": "BZD",
+        "pais": "BZ"
+    },
+    {
+        "moneda": "CAD",
+        "pais": "CA"
+    },
+    {
+        "moneda": "CDF",
+        "pais": "CD"
+    },
+    {
+        "moneda": "XAF",
+        "pais": "CF"
+    },
+    {
+        "moneda": "CHF",
+        "pais": "CH"
+    },
+    {
+        "moneda": "CLP",
+        "pais": "CL"
+    },
+    {
+        "moneda": "CNY",
+        "pais": "CN"
+    },
+    {
+        "moneda": "COP",
+        "pais": "CO"
+    },
+    {
+        "moneda": "CRC",
+        "pais": "CR"
+    },
+    {
+        "moneda": "CUP",
+        "pais": "CU"
+    },
+    {
+        "moneda": "CVE",
+        "pais": "CV"
+    },
+    {
+        "moneda": "CYP",
+        "pais": "CY"
+    },
+    {
+        "moneda": "CZK",
+        "pais": "CZ"
+    },
+    {
+        "moneda": "DJF",
+        "pais": "DJ"
+    },
+    {
+        "moneda": "DKK",
+        "pais": "DK"
+    },
+    {
+        "moneda": "DOP",
+        "pais": "DO"
+    },
+    {
+        "moneda": "DZD",
+        "pais": "DZ"
+    },
+    {
+        "moneda": "ECS",
+        "pais": "EC"
+    },
+    {
+        "moneda": "EEK",
+        "pais": "EE"
+    },
+    {
+        "moneda": "EGP",
+        "pais": "EG"
+    },
+    {
+        "moneda": "ETB",
+        "pais": "ET"
+    },
+    {
+        "moneda": "EUR",
+        "pais": "FR"
+    },
+    {
+        "moneda": "FJD",
+        "pais": "FJ"
+    },
+    {
+        "moneda": "FKP",
+        "pais": "FK"
+    },
+    {
+        "moneda": "GBP",
+        "pais": "GB"
+    },
+    {
+        "moneda": "GEL",
+        "pais": "GE"
+    },
+    {
+        "moneda": "GGP",
+        "pais": "GG"
+    },
+    {
+        "moneda": "GHS",
+        "pais": "GH"
+    },
+    {
+        "moneda": "GIP",
+        "pais": "GI"
+    },
+    {
+        "moneda": "GMD",
+        "pais": "GM"
+    },
+    {
+        "moneda": "GNF",
+        "pais": "GN"
+    },
+    {
+        "moneda": "GTQ",
+        "pais": "GT"
+    },
+    {
+        "moneda": "GYD",
+        "pais": "GY"
+    },
+    {
+        "moneda": "HKD",
+        "pais": "HK"
+    },
+    {
+        "moneda": "HNL",
+        "pais": "HN"
+    },
+    {
+        "moneda": "HRK",
+        "pais": "HR"
+    },
+    {
+        "moneda": "HTG",
+        "pais": "HT"
+    },
+    {
+        "moneda": "HUF",
+        "pais": "HU"
+    },
+    {
+        "moneda": "IDR",
+        "pais": "ID"
+    },
+    {
+        "moneda": "ILS",
+        "pais": "IL"
+    },
+    {
+        "moneda": "INR",
+        "pais": "IN"
+    },
+    {
+        "moneda": "IQD",
+        "pais": "IQ"
+    },
+    {
+        "moneda": "IRR",
+        "pais": "IR"
+    },
+    {
+        "moneda": "ISK",
+        "pais": "IS"
+    },
+    {
+        "moneda": "JMD",
+        "pais": "JM"
+    },
+    {
+        "moneda": "JOD",
+        "pais": "JO"
+    },
+    {
+        "moneda": "JPY",
+        "pais": "JP"
+    },
+    {
+        "moneda": "KES",
+        "pais": "KE"
+    },
+    {
+        "moneda": "KGS",
+        "pais": "KG"
+    },
+    {
+        "moneda": "KHR",
+        "pais": "KH"
+    },
+    {
+        "moneda": "KMF",
+        "pais": "KM"
+    },
+    {
+        "moneda": "KPW",
+        "pais": "KP"
+    },
+    {
+        "moneda": "KRW",
+        "pais": "KR"
+    },
+    {
+        "moneda": "KWD",
+        "pais": "KW"
+    },
+    {
+        "moneda": "KYD",
+        "pais": "KY"
+    },
+    {
+        "moneda": "KZT",
+        "pais": "KZ"
+    },
+    {
+        "moneda": "LAK",
+        "pais": "LA"
+    },
+    {
+        "moneda": "LBP",
+        "pais": "LB"
+    },
+    {
+        "moneda": "LKR",
+        "pais": "LK"
+    },
+    {
+        "moneda": "LRD",
+        "pais": "LR"
+    },
+    {
+        "moneda": "LSL",
+        "pais": "LS"
+    },
+    {
+        "moneda": "LTL",
+        "pais": "LT"
+    },
+    {
+        "moneda": "LVL",
+        "pais": "LV"
+    },
+    {
+        "moneda": "LYD",
+        "pais": "LY"
+    },
+    {
+        "moneda": "MAD",
+        "pais": "MA"
+    },
+    {
+        "moneda": "MDL",
+        "pais": "MD"
+    },
+    {
+        "moneda": "MGA",
+        "pais": "MG"
+    },
+    {
+        "moneda": "MKD",
+        "pais": "MK"
+    },
+    {
+        "moneda": "MMK",
+        "pais": "MM"
+    },
+    {
+        "moneda": "MNT",
+        "pais": "MN"
+    },
+    {
+        "moneda": "MOP",
+        "pais": "MO"
+    },
+    {
+        "moneda": "MRO",
+        "pais": "MR"
+    },
+    {
+        "moneda": "MTL",
+        "pais": "MT"
+    },
+    {
+        "moneda": "MUR",
+        "pais": "MU"
+    },
+    {
+        "moneda": "MVR",
+        "pais": "MV"
+    },
+    {
+        "moneda": "MWK",
+        "pais": "MW"
+    },
+    {
+        "moneda": "MXN",
+        "pais": "MX"
+    },
+    {
+        "moneda": "MYR",
+        "pais": "MY"
+    },
+    {
+        "moneda": "MZN",
+        "pais": "MZ"
+    },
+    {
+        "moneda": "NAD",
+        "pais": "NA"
+    },
+    {
+        "moneda": "XPF",
+        "pais": "NC"
+    },
+    {
+        "moneda": "NGN",
+        "pais": "NG"
+    },
+    {
+        "moneda": "NIO",
+        "pais": "NI"
+    },
+    {
+        "moneda": "NPR",
+        "pais": "NP"
+    },
+    {
+        "moneda": "NZD",
+        "pais": "NZ"
+    },
+    {
+        "moneda": "OMR",
+        "pais": "OM"
+    },
+    {
+        "moneda": "PAB",
+        "pais": "PA"
+    },
+    {
+        "moneda": "PEN",
+        "pais": "PE"
+    },
+    {
+        "moneda": "PGK",
+        "pais": "PG"
+    },
+    {
+        "moneda": "PHP",
+        "pais": "PH"
+    },
+    {
+        "moneda": "PKR",
+        "pais": "PK"
+    },
+    {
+        "moneda": "PLN",
+        "pais": "PL"
+    },
+    {
+        "moneda": "PYG",
+        "pais": "PY"
+    },
+    {
+        "moneda": "QAR",
+        "pais": "QA"
+    },
+    {
+        "moneda": "RON",
+        "pais": "RO"
+    },
+    {
+        "moneda": "RSD",
+        "pais": "RS"
+    },
+    {
+        "moneda": "RUB",
+        "pais": "RU"
+    },
+    {
+        "moneda": "RWF",
+        "pais": "RW"
+    },
+    {
+        "moneda": "SAR",
+        "pais": "SA"
+    },
+    {
+        "moneda": "SBD",
+        "pais": "SB"
+    },
+    {
+        "moneda": "SCR",
+        "pais": "SC"
+    },
+    {
+        "moneda": "SDG",
+        "pais": "SD"
+    },
+    {
+        "moneda": "SEK",
+        "pais": "SE"
+    },
+    {
+        "moneda": "SGD",
+        "pais": "SG"
+    },
+    {
+        "moneda": "SKK",
+        "pais": "SK"
+    },
+    {
+        "moneda": "SLL",
+        "pais": "SL"
+    },
+    {
+        "moneda": "SOS",
+        "pais": "SO"
+    },
+    {
+        "moneda": "SRD",
+        "pais": "SR"
+    },
+    {
+        "moneda": "STD",
+        "pais": "ST"
+    },
+    {
+        "moneda": "SVC",
+        "pais": "SV"
+    },
+    {
+        "moneda": "SYP",
+        "pais": "SY"
+    },
+    {
+        "moneda": "SZL",
+        "pais": "SZ"
+    },
+    {
+        "moneda": "THB",
+        "pais": "TH"
+    },
+    {
+        "moneda": "TJS",
+        "pais": "TJ"
+    },
+    {
+        "moneda": "TMT",
+        "pais": "TM"
+    },
+    {
+        "moneda": "TND",
+        "pais": "TN"
+    },
+    {
+        "moneda": "TOP",
+        "pais": "TO"
+    },
+    {
+        "moneda": "TRY",
+        "pais": "TR"
+    },
+    {
+        "moneda": "TTD",
+        "pais": "TT"
+    },
+    {
+        "moneda": "TWD",
+        "pais": "TW"
+    },
+    {
+        "moneda": "TZS",
+        "pais": "TZ"
+    },
+    {
+        "moneda": "UAH",
+        "pais": "UA"
+    },
+    {
+        "moneda": "UGX",
+        "pais": "UG"
+    },
+    {
+        "moneda": "USD",
+        "pais": "US"
+    },
+    {
+        "moneda": "UYU",
+        "pais": "UY"
+    },
+    {
+        "moneda": "UZS",
+        "pais": "UZ"
+    },
+    {
+        "moneda": "VEF",
+        "pais": "VE"
+    },
+    {
+        "moneda": "VND",
+        "pais": "VN"
+    },
+    {
+        "moneda": "VUV",
+        "pais": "VU"
+    },
+    {
+        "moneda": "YER",
+        "pais": "YE"
+    }, {
+        "moneda": "ZAR",
+        "pais": "ZA"
+    }, {
+        "moneda": "ZMK",
+        "pais": "ZM"
+    }, {
+        "moneda": "ZWD",
+        "pais": "ZW"
+    }
+    ]
+    
+    

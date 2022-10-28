@@ -222,4 +222,9 @@ btnCarrito.onclick = () => {
     });
 }
 
+let time = (1000)
+setInterval(saludar, time);
 
+function saludar(){
+    console.log('Hola')
+}
